@@ -6,6 +6,11 @@ import org.asl.karelx.Farmer;
  */
 public class BeepFarmer extends Farmer {
 
+   public BeepFarmer(int x, int y, int beeps)
+   {
+   super(x, y, beeps);
+   }
+
 	//  TODO Add one or more constructors, as needed
 	
 	/**
